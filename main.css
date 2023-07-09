@@ -1,5 +1,9 @@
 .sitename {
 	font-family: Helvetica, Arial, sans-serif;
+	sitename:link { text-decoration: none; }
+	sitename:visited { text-decoration: none; }
+	sitename:hover { text-decoration: underline; }
+	sitename:active { text-decoration: underline; }
 }
 
 .header {
