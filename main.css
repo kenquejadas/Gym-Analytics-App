@@ -1,10 +1,10 @@
-.sitename {
+.homebutton {
 	font-family: Helvetica, Arial, sans-serif;
-	sitename:link { text-decoration: none; }
-	sitename:visited { text-decoration: none; }
-	sitename:hover { text-decoration: underline; }
-	sitename:active { text-decoration: underline; }
 }
+homebutton:link { text-decoration: none; }
+homebutton:visited { text-decoration: none; }
+homebutton:hover { text-decoration: underline; }
+homebutton:active { text-decoration: underline; }
 
 .header {
   		/* width: 100%;
