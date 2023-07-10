@@ -1,5 +1,5 @@
 # Gym-Workout-Relational-Database
-## Project Components
+### Project Components
 - [Front-End Website for Database Query Interface (in-progress)](http://www.kenportfol.io/Gym-Workout-Relational-Database/)
 - MySQL Database
 
