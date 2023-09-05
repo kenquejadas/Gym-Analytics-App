@@ -1,7 +1,7 @@
 # Gym-Workout-Relational-Database
 ## Components
-- Front-End Interface for Data Input and Inquiries
-- Back-End server for storing data
+- Front-End Interface website for Data Input and Inquiries
+- Back-End relational database hosted by AWS
 ## Background
 I didn't want to pay for mobile apps to track gym workouts, got tired of typing long lists in my notes app, and figured a spreadsheet would hold unnecessary duplicate values. A relational database would display only the relevant workout data I want to see at a given time.
 
