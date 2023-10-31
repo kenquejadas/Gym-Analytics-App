@@ -93,7 +93,12 @@ a {
 }
 
 /* Style for input */
-input
+input[type='text'] /* for text labels */
+{
+	font-size:20px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+input /* for rest of the input fields */
 {
 	font-size:20px;
 	font-family: Helvetica, Arial, sans-serif;
