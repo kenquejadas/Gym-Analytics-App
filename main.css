@@ -92,6 +92,13 @@ a {
   display: block;
 }
 
+/* Style for input */
+input
+{
+	font-size:20px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
