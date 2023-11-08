@@ -93,6 +93,7 @@ a {
 /* Style for input */
 input[type='text'] /* for text labels */
 {
+	margin-left: 100px;
 	font-size:20px;
 	font-family: Helvetica, Arial, sans-serif;
 }
