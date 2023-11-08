@@ -1,12 +1,16 @@
-# Gym-Workout-Relational-Database
+# Gym Workout Analytics App
 Under development
 [Web App](https://gymworkoutdatabase.netlify.app)
+
+## Scope
+Web application that allows user(s) to log gym workout data onto interface which will store data in a relational database. Afterwards, the user(s) can query historical data from the database through the front-end interface for summarization and analysis.
 
 ## Components
 - Front-End Interface website for Data Input and Inquiries
     - Hosted by Netlify
 - Back-End relational database
     - Hosted by Supabase
+
 ## Background
 I didn't want to pay for mobile apps to track gym workouts, got tired of typing long lists in my notes app, and figured a spreadsheet would hold unnecessary duplicate values. A relational database would display only the relevant workout data I want to see at a given time.
 
