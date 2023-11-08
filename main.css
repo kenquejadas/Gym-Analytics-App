@@ -41,7 +41,7 @@ a {
   background-color: #3498DB;
   color: white;
   padding: 16px;
-  margin-left: 40px;
+  margin-left: 100px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -97,6 +97,8 @@ input[type='text'] /* for text labels */
 }
 input /* for rest of the input fields */
 {
+	margin-top: 40px;
+	margin-left: 100px;
 	font-size:20px;
 	font-family: Helvetica, Arial, sans-serif;
 }
