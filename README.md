@@ -8,8 +8,8 @@ Web application that allows user(s) to log gym workout data onto interface which
 ## Components
 - Front-End Interface website for Data Input and Inquiries
     - Hosted by Netlify
-- Back-End relational database
-    - Hosted by Supabase
+- Back-End SQL database
+    - Hosted by Microsoft Azure 
 
 ## Background
 I didn't want to pay for mobile apps to track gym workouts, got tired of typing long lists in my notes app, and figured a spreadsheet would hold unnecessary duplicate values. A relational database would display only the relevant workout data I want to see at a given time.
