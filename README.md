@@ -23,5 +23,7 @@ Through a SQL database, I am looking to find just the exercises and related attr
 ![ERD](https://github.com/kenquejadas/Gym-Workout-Relational-Database/blob/main/Gym%20Workouts%20Database%20ERD.png)
 Entity Relationship Diagram made with Lucidchart
 ### Definitions
+
 **__Workout__** - Session of one or multiple exercises, usually focused around one area of exercise (WorkoutType) such as cardio, abdominals, chest, etc.
+
 **__Exercise__** - Specific physical activity focused on one area 
