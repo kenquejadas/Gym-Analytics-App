@@ -24,6 +24,6 @@ Through a SQL database, I am looking to find just the exercises and related attr
 Entity Relationship Diagram made with Lucidchart
 ### Definitions
 | Term  | Definition | Example |
-| ------------- | ------------- |
-| Workout  | Session of one or multiple exercises, usually focused around one area of exercise  |  Cardio, Abdominals, Chest, Triceps, Leg Day  |
-| Exercise  | Specific physical activity focused on one area | Dumbbell Trice Extension, Leg Press, Lat Pulldown |
+| ------------- | ------------- | ------------- |
+| Workout  |  Session of one or multiple exercises, usually focused around one area of exercise  |  Cardio, Abdominals, Chest, Triceps, Leg Day  |
+| Exercise  |  Specific physical activity focused on one area  |  Dumbbell Trice Extension, Leg Press, Lat Pulldown |
