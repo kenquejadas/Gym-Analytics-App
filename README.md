@@ -6,9 +6,9 @@ Under development
 Web application that allows user(s) to log gym workout data onto interface which will store data in a relational database. Afterwards, the user(s) can query historical data from the database through the front-end interface for summarization and analysis.
 
 ## Components
-### Front-End Interface website for Data Input and Inquiries
+### Front-End Interface Website for Data Input and Inquiries
  - Hosted by Netlify
-### Back-End SQL database
+### Back-End SQL Database
  - Hosted by Microsoft Azure 
 
 ## Personal Use Case: Why I Created This
