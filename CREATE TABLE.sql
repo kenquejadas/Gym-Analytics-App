@@ -52,7 +52,7 @@ CREATE TABLE Categorize ( /* Categorize exercises by matching them with workout 
     WorkoutType VARCHAR(10),
     ExerciseName VARCHAR(20),
     PRIMARY KEY (MatchID),
-    FOREIGN KEY (WorkoutType) REFERENCES Workout(WorkoutType),
+    FOREIGN KEY (WorkoutName) REFERENCES Workout(WorkoutName),
     FOREIGN KEY (ExerciseName) REFERENCES Exercise(ExerciseName)
 );
 
