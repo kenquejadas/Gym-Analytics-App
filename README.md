@@ -1,13 +1,11 @@
 # Gym Workout Analytics App
-Under development
-[Web App](https://gymworkoutdatabase.netlify.app)
 
 ## Scope
 Web application that allows user(s) to log gym workout data onto interface which will store data in a relational database. Afterwards, the user(s) can query historical data from the database through the front-end interface for summarization and analysis.
 
 ## Components
 ### Front-End Interface Website for Data Input and Inquiries
- - Hosted by Netlify
+ - Hosted by Netlify: https://gymworkoutdatabase.netlify.app
 ### Back-End SQL Database
  - Hosted by Microsoft Azure 
 
