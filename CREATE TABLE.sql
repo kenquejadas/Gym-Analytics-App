@@ -27,6 +27,7 @@ CREATE TABLE Workout (
 CREATE TABLE Exercise (
     ExerciseID INT,
     ExerciseName VARCHAR(20) NOT NULL, /* Weights, Treadmill, Stair Master, Elliptical*/
+    MusclesWorked VARCHAR(30), /* For strength exercises, can involve multiple muscle groups (e.g. Back, Biceps) */
     MatchID INT,
     ExerciseType VARCHAR(10),
     Equipment VARCHAR(10),
