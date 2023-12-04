@@ -18,7 +18,7 @@ Through a SQL database, I am looking to find just the exercises and related attr
 
 ## Database 
 ### Visualization
-![ERD](https://github.com/kenquejadas/Gym-Workout-Relational-Database/blob/main/Gym%20Workouts%20Database%20ERD.png)
+![Entity Relationship Diagram](https://github.com/kenquejadas/Gym-Workout-Relational-Database/blob/main/ERD.png)
 Entity Relationship Diagram made with Lucidchart
 ### Definitions
 | Term  | Definition | Example |
