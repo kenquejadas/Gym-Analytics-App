@@ -3,6 +3,7 @@
 CREATE TABLE Log (
     LogID INT,
     LogDateTime DATETIME,
+    LogType VARCHAR(10), /* Log either exercise set or rest time */
     MatchID INT,
     Log_Sets INT,
     Log_Reps INT,
