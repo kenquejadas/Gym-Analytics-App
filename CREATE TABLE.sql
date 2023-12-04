@@ -1,7 +1,7 @@
 /* Short Description: Relational database for gym workout data */
 
 CREATE TABLE Log (
-    LogID INT,
+    LogID INT NOT NULL,
     LogDateTime DATETIME,
     LogType VARCHAR(10), /* Log either exercise set or rest time */
     MatchID INT,
@@ -17,20 +17,20 @@ CREATE TABLE Log (
 
 /* Workout = Category of either cardio or muscles worked */
 CREATE TABLE Workout (
-    WorkoutID INT,
-    WorkoutName VARCHAR(20) NOT NULL, /* Cardio, Push, Pull, Abs, Leg Day */
-    ExerciseID INT,
+    WorkoutID INT NOT NULL,
+    WorkoutType VARCHAR(20) NOT NULL, /* e.g. Cardio, Back, Biceps, Abs, Leg Day */
+    ExerciseID INT NOT NULL,
     PRIMARY KEY (WorkoutID),
     FOREIGN KEY (ExerciseID) REFERENCES Exercise(ExerciseID)
 );
 
 CREATE TABLE Exercise (
-    ExerciseID INT,
+    ExerciseID INT NOT NULL,
     ExerciseName VARCHAR(20) NOT NULL, /* Weights, Treadmill, Stair Master, Elliptical*/
     MusclesWorked VARCHAR(30), /* For strength exercises, can involve multiple muscle groups (e.g. Back, Biceps) */
     MatchID INT,
-    ExerciseType VARCHAR(10),
-    Equipment VARCHAR(10),
+    ExerciseType VARCHAR(10) NOT NULL,
+    Equipment VARCHAR(10) NOT NULL,
     PRIMARY KEY (ExerciseID),
     FOREIGN KEY (MatchID) REFERENCES Categorize(MatchID),
     FOREIGN KEY (ExerciseType) REFERENCES ExerciseType(ExerciseType),
@@ -40,19 +40,19 @@ CREATE TABLE Exercise (
 /* Separate table for exercise type so that each exercise has their respective type
 	and prevent duplicates */
 CREATE TABLE ExerciseType( 
-	ExerciseType VARCHAR(10) /* Weights, Walk, Run, Climb */
+	ExerciseType VARCHAR(10) NOT NULL /* Weights, Walk, Run, Climb */
 );
 
 /* Separate table for equipment so that each exercise has their respective equipment
 	and prevent duplicates */
 CREATE TABLE Equipment( 
-    Equipment VARCHAR(10) /* Machine, Dumbbells, Barbells, Band */
+    Equipment VARCHAR(10) NOT NULL /* Machine, Dumbbells, Barbells, Band */
 );
 
 CREATE TABLE Categorize ( /* Categorize exercises by matching them with workout type */
 	MatchID INT,
-    WorkoutType VARCHAR(10),
-    ExerciseName VARCHAR(20),
+    WorkoutType VARCHAR(10) NOT NULL,
+    ExerciseName VARCHAR(20) NOT NULL,
     PRIMARY KEY (MatchID),
     FOREIGN KEY (WorkoutName) REFERENCES Workout(WorkoutName),
     FOREIGN KEY (ExerciseName) REFERENCES Exercise(ExerciseName)
