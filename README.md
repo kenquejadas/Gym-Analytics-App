@@ -5,9 +5,9 @@ Web application that allows user(s) to log gym workout data onto interface which
 
 ## Components
 ### Front-End Interface Website for Data Input and Query
- - Hosted via GitHub Pages https://kenquejadas.github.io/Gym-Analytics-App/
+ - Hosted by Netlify https://gymworkoutdatabase.netlify.app
 ### Back-End SQL Database
- - Hosted by Microsoft Azure 
+ - SQL Database hosted by Microsoft Azure 
 
 ## Personal Use Case: Why I Created This
 I didn't want to pay for mobile apps to track gym workouts, got tired of typing long lists in my notes app, and figured a spreadsheet would hold unnecessary duplicate values. A relational database would display only the relevant workout data I want to see at a given time.
